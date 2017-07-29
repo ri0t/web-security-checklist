@@ -57,6 +57,7 @@ $ git clone https://github.com/prologic/web-security-checklist
 ## Libraries
 
 *Recommended / Vetted libraires solving particular parts of security well.*
+(*Pleasr contribute only librarires to this section; Its much harder to vet frameworks.*)
 
 ### Python
 
