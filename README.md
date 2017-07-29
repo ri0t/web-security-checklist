@@ -35,7 +35,10 @@ $ git clone https://github.com/prologic/web-security-checklist
 * [ ] Secure IDs -- Helps twart brute-force gusses of valid session ids.
   * [ ] Cryptographic randomoly generate UUIDs
 * [ ] Password Store -- Makes offline brute-force attacks much harder or impossible.
-  * [ ] Use either bcrypt or scrypt
+  * [ ] Use a strong KDFS such as bcrypt or scrypt.
+  * [ ] Unique cryptographically secure 32bit (*ideally 64bit*) salt per password.
+  * [ ] Do not restrict length and charset set or encoding.
+  * [ ] Impose minimum length and compexity.
 * [ ] XSS (*Cross Site Scriptiong*)
   * [ ] Validate all untrusted inputs.
   * [ ] Escape all untrusted inputs.
@@ -66,6 +69,7 @@ $ git clone https://github.com/prologic/web-security-checklist
 * [OWASP](https://www.owasp.org)
   * [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
   * [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
+  * [Password Storage Cheat Sheet](https://www.owasp.org/index.php/Password_Storage_Cheat_Sheet#Use_a_cryptographically_strong_credential-specific_salt)
 
 ## License
 
