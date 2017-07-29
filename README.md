@@ -25,6 +25,8 @@ $ git clone https://github.com/prologic/web-security-checklist
 
 * [ ] Transport Security -- Protect the transport from sniffing.
   * [ ] TLS/SSL
+  * [ ] Redirect al HTTP requests to HTTPS
+  * [ ] Use a trusted CA such as [LetsEncrypt](https://letsencrypt.org/)
 * [ ] Two Factor Auth -- Helps proect against stolen user credentials.
   * [ ] Expire tokens periodically -- Helps prevent stolen OTP/U2F devices.
 * [ ] Session Cookies -- Helps prevent session fixation, hijacking and replay
