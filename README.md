@@ -2,7 +2,20 @@
 
 ## Instructions
 
-Please fork this gist and use as your own checklist as you develop/deploy your web application or api.
+Please [fork](https://github.com/prologic/web-security-checklist#fork-destination-box) this repo and use as your own checklist as you develop/deploy your web application or api.
+
+I you have [hub](https://hub.github.com/) installed:
+
+```#!bash
+$ git clone prologic/web-security-checklist
+$ git fork
+```
+
+Or:
+
+```#!bash
+$ git clone https://github.com/prologic/web-security-checklist
+```
 
 **WARNING:** This checklist makes an assumption of the level of expertise and experience of the reader and assumes significant in-depth knowledge and experience in web development.
 
