@@ -10,17 +10,18 @@ Please fork this gist and use as your own checklist as you develop/deploy your w
 
 *Checklist for Backend<->Frontend Web Application(s)*
 
-* [ ] TLS/SSL -- Protect the transport from sniffing.
-* [ ] OTP/U2F -- Helps proect against stolen user credentials.
-  * [ ] Expire OTP/U2F tokens periodically -- Helps prevent stolen OTP/U2F devices.
-* [ ] Secure session cookies -- Helps prevent session fixation, hijacking and replay
+* [ ] Transport Security -- Protect the transport from sniffing.
+  * TLS/SSL
+* [ ] Two Factor Auth -- Helps proect against stolen user credentials.
+  * [ ] Expire tokens periodically -- Helps prevent stolen OTP/U2F devices.
+* [ ] Session Cookies -- Helps prevent session fixation, hijacking and replay
   * [ ] Regenerate Session IDs -- Helps twart session hijacking/replay.
   * [ ] Store session state server-side -- Riskier storing state client-side.
   * [ ] Set `HttpOnly` -- Helps mitigates successful Cross-Site Scripting attacks.
   * [ ] Set `Secure` -- Helps mitigates against Man-In-The-Middle attacks.
-* [ ] Secure Session IDs -- Helps twart brute-force gusses of valid session ids.
+* [ ] Secure IDs -- Helps twart brute-force gusses of valid session ids.
   * [ ] Cryptographic randomoly generate UUIDs
-* [ ] Secure password database -- Makes offline brute-force attacks much harder or impossible.
+* [ ] Password Store -- Makes offline brute-force attacks much harder or impossible.
   * [ ] Use either bcrypt or scrypt
 * [ ] XSS (*Cross Site Scriptiong*)
   * [ ] Validate all untrusted inputs.
