@@ -4,7 +4,7 @@
 
 Please [fork](https://github.com/prologic/web-security-checklist#fork-destination-box) this repo and use as your own checklist as you develop/deploy your web application or api.
 
-I you have [hub](https://hub.github.com/) installed:
+If you have [hub](https://hub.github.com/) installed:
 
 ```#!bash
 $ git clone prologic/web-security-checklist
