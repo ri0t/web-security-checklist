@@ -80,4 +80,4 @@ This project is licensed under the MIT License. See: [LICENSE](https://github.co
 
 ## Contributing
 
-Please fork and submit pull-request(s) to contribute to this checklist, recommended libraries for your favourite language or external resources.
+Please fork and submit pull-request(s) to contribute to this checklist, recommended libraries for your favourite language or external resources. See also [CONTRIBUTING.md](https://github.com/prologic/web-security-checklist/blob/master/CONTRIBUTING.md)
