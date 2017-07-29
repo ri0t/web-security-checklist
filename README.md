@@ -24,7 +24,7 @@ $ git clone https://github.com/prologic/web-security-checklist
 *Checklist for Backend<->Frontend Web Application(s)*
 
 * [ ] Transport Security -- Protect the transport from sniffing.
-  * TLS/SSL
+  * [ ] TLS/SSL
 * [ ] Two Factor Auth -- Helps proect against stolen user credentials.
   * [ ] Expire tokens periodically -- Helps prevent stolen OTP/U2F devices.
 * [ ] Session Cookies -- Helps prevent session fixation, hijacking and replay
