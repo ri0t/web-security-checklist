@@ -22,6 +22,12 @@ Please fork this gist and use as your own checklist as you develop/deploy your w
   * [ ] Cryptographic randomoly generate UUIDs
 * [ ] Secure password database -- Makes offline brute-force attacks much harder or impossible.
   * [ ] Use either bcrypt or scrypt
+* [ ] XSS (*Cross Site Scriptiong*)
+  * [ ] Validate all untrusted inputs.
+  * [ ] Escape all untrusted inputs.
+* [ ] CSRF (*Cross Site Request Forgery*)
+  * [ ] Same Origin verification
+  * [ ] CSRF Token verification
 
 ## API
 
