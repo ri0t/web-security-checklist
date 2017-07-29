@@ -77,3 +77,7 @@ $ git clone https://github.com/prologic/web-security-checklist
 ## License
 
 This project is licensed under the MIT License. See: [LICENSE](https://github.com/prologic/web-security-checklist/blob/master/LICENSE)
+
+## Contributing
+
+Please fork and submit pull-request(s) to contribute to this checklist, recommended libraries for your favourite language or external resources.
