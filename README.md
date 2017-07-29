@@ -66,3 +66,7 @@ $ git clone https://github.com/prologic/web-security-checklist
 * [OWASP](https://www.owasp.org)
   * [XSS (Cross Site Scripting) Prevention Cheat Sheet](https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet)
   * [Cross-Site Request Forgery (CSRF) Prevention Cheat Sheet](https://www.owasp.org/index.php/Cross-Site_Request_Forgery_(CSRF)_Prevention_Cheat_Sheet)
+
+## License
+
+This project is licensed under the MIT License. See: [LICENSE](https://github.com/prologic/web-security-checklist/blob/master/LICENSE)
